@@ -110,7 +110,33 @@ span .subtitle{
     /* display: block; */
     margin: 0 15px;
 }
-
+.nav-items li button{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    opacity: 50%;
+    font-size: 14px;
+}
+.nav-items li button:hover{
+    background-color: #3B6164;
+    color: white;
+    opacity: 100%;
+}
+.nav-items li button:focus{
+    background-color: #3B6164;
+    color: white;
+    /* border: 15px #3B6164; */
+    opacity: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dropdown-items{
+    height: 33.47px
+}
+/* .dropdown-items:hover{
+    background-color: red ;
+} */
 .nav-items li a{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;

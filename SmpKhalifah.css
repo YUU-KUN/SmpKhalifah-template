@@ -131,12 +131,11 @@ span .subtitle{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-.dropdown-items{
+.dropdown-item{
+    /* align-items: center; */
+    text-align: center;
     height: 33.47px
 }
-/* .dropdown-items:hover{
-    background-color: red ;
-} */
 .nav-items li a{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;

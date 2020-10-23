@@ -1,0 +1,248 @@
+body{
+    margin: 0 auto
+}
+/* .container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+} */
+
+.header {
+    background-color: #3B6164;
+    position: relative;
+    border-radius: 0 0 0 30px;
+    width: 100%;
+    height: 54px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;   
+} 
+.contact-left{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 200px;
+    /* position: fixed; */
+    display: inline;
+    float: left;
+}
+.whatsapp, .mail{
+    /* align-items: center; */
+    justify-content:center;
+    display: inline;
+    color: white;
+    font-size: 12px;
+}
+.mail{
+    align-items: center;
+}
+
+.contact-right{
+    float: right;
+    /* justify-content: center; */
+    /* display: flex; */
+    margin: auto 200px;
+}
+/* .facebook, .youtube, .instagram{
+    display: inline;
+} */
+
+/* 
+.material-icon.white{
+    color: white;
+} */
+
+.navigation{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo{
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.logo-text{
+    color: #3B6164;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+}
+
+.logo-text .title{
+    /* font-size: 20;
+    font-weight: 700; */
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 30px;
+}
+span .subtitle{
+    /* font-size: 10pt;
+    font-weight: 300; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.logo-img{
+    height: 54px;
+    float: left;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin: auto ;
+    /* float: right; */
+    font-size: 10pt;
+}
+
+.nav-items li{
+    list-style: none;
+    /* display: block; */
+    margin: 0 15px;
+}
+
+.nav-items li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+/* CAROUSEL */
+.carousel-item img {
+    width: 100%;
+}
+
+/* SAMBUTAN KEPALA SEKOLAH */
+.sambutanKepalaSekolah{
+    /* align-items: center; */
+    display: inline;
+}
+#foto-kepalaSekolah{
+    background: yellow;
+    width: 341.63px;
+    /* display: inline; */
+}
+
+#content-kepalaSekolah{
+    background: cyan;
+    /* justify-content:space-between; */
+    float: right;
+    width: 640px;
+    /* display: inline; */
+}
+
+
+.row{
+    display: flex;
+    height: 638px;
+    align-items: center;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.col{
+    align-items: center;
+    flex-basis: 50%;
+    /* margin-left: 50px; */
+    margin: auto ;
+}
+.col h1{
+    color: black;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+.col hr{
+    margin: 35px 150px; 
+    width: 160px;
+    border: 3px solid;
+    color: #3B6164;
+    background: #3B6164
+} 
+.col p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    opacity: 70%;
+    width: 600px;
+}
+
+/* .kartu{
+    border: 2px solid red;
+    border-radius: 3%;
+    width: 332.89px;
+    margin: auto;
+}
+.kartu img{
+    margin: 0px;
+}
+
+.kartu-text{
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    background-color: yellow;
+} */
+
+.kartu{
+    background-color: lightgray;
+    /* background: url(./images/v0_256.png); */
+    border: 1px solid white;
+    /* background-repeat: no-repeat; */
+    display: inline-block;
+    border-radius: 1%;
+    box-shadow: -2px 2px 15px -5px lightslategrey;
+    /* height: 435px; */
+    height: 475px;
+    width: 342px;
+    overflow: hidden;
+    margin-left: 8%;
+}
+
+.img-kartu{
+    width: 342px;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+.kartu-title{
+    height: 100px;
+    z-index: 2;
+    text-align: center;
+    background-color: white;
+    border-radius: 1%;
+    /* padding: auto; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+.kartu-title h5{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3B6164;
+}
+
+
+
+/* .card:hover{
+    transform: translateY(-10px);
+} */
+

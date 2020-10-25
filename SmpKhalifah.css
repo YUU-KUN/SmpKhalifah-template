@@ -357,3 +357,27 @@ body{
 .profil{
     margin: 75px auto; 
 }
+
+.hubungi-kami{
+    padding: 44px 8%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Poppins'; 
+    background:white; 
+    box-shadow: inset 0 2px 7px lightgray;
+    /* display: flex; */
+}
+
+.hubungi-kami hr{
+    margin: 35px 0; 
+    width: 160px;
+    height: 5px;
+    background: #3B6164;
+}
+.hubungi-kami h1{
+    font-family: 'Poppins'; 
+    font-weight: 700; 
+    font-size: 36px; 
+    color: #263138;
+}

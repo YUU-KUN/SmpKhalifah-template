@@ -344,7 +344,7 @@ body{
     height: 5px;
     background: #3B6164;
 }
-.profil-sekolah h1{
+.profil-sekolah h1, .artikelDetail-title h1{
     text-align: center; 
     font-family: 'Poppins'; 
     font-weight: 700; 
@@ -355,7 +355,7 @@ body{
     text-align: center;
 }
 
-.profil, .visi, .misi, .tujuan, .artikelDetail{
+.profil, .visi, .misi, .tujuan{
     margin: 75px auto; 
 }
 
@@ -370,15 +370,22 @@ body{
     /* display: flex; */
 }
 
-.hubungi-kami hr, .ppdb hr, .artikelDetail hr{
+.hubungi-kami hr, .ppdb hr{
     margin: 35px 0; 
     width: 160px;
     height: 5px;
     background: #3B6164;
 }
-.hubungi-kami h1, .ppdb h1, .artikelDetail h1{
+.hubungi-kami h1, .ppdb h1, .artikelDetail .content h1{
     font-family: 'Poppins'; 
     font-weight: 700; 
     font-size: 36px; 
     color: #263138;
+}
+.artikelDetail-title hr{
+    margin: 35px auto; 
+    width: 160px;
+    height: 5px;
+    background: #3B6164;
+    /* align-items: center; */
 }

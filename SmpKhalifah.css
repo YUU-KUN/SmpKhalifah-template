@@ -355,11 +355,11 @@ body{
     text-align: center;
 }
 
-.profil{
+.profil, .visi, .misi, .tujuan, .artikelDetail{
     margin: 75px auto; 
 }
 
-.hubungi-kami{
+.hubungi-kami, .ppdb, .artikelDetail{
     padding: 44px 8%;
     width: 100%;
     align-content: center;
@@ -370,13 +370,13 @@ body{
     /* display: flex; */
 }
 
-.hubungi-kami hr{
+.hubungi-kami hr, .ppdb hr, .artikelDetail hr{
     margin: 35px 0; 
     width: 160px;
     height: 5px;
     background: #3B6164;
 }
-.hubungi-kami h1{
+.hubungi-kami h1, .ppdb h1, .artikelDetail h1{
     font-family: 'Poppins'; 
     font-weight: 700; 
     font-size: 36px; 

@@ -17,6 +17,15 @@
         margin: 35px;
     }   
 
+    /* GALERI PAGE */
+    .row3 {
+        display: none;
+    }
+    .row3 .row .col img{
+        width: 150px;
+        height: auto;
+    }
+
     /* HUBUNGI KAMI PAGE*/
     .formHubungiKami form{
         width: 100%

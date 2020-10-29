@@ -18,13 +18,13 @@
     }   
 
     /* GALERI PAGE */
-    .row3 {
+    /* .row3 {
         display: none;
     }
     .row3 .row .col img{
         width: 150px;
         height: auto;
-    }
+    } */
 
     /* HUBUNGI KAMI PAGE*/
     .formHubungiKami form{
@@ -34,4 +34,28 @@
         background-color: #3B6164; color: white; margin: 20px auto; width: 50%; height: 45px; border-radius: 5px;
     }
 
+    /* ARTIKEL SKEOLAH PAGE*/
+    .article-content {
+        margin: 75px 0 15px;
+    }
+    .article-content .col{
+        display: inline
+    }
+    .article-content .col img{
+        width:100%;
+        margin: 0 auto; 
+        height: auto;
+        border-radius:10px;
+        /* margin: 0 35px; */
+    }
+    .article-content .col h1{
+        margin: 15px;
+        font-family: 'Poppins'; 
+        font-size: 36px; 
+        font-weight: bold
+    }
+    .article-content .col p{
+        width: auto;
+        margin: 15px;
+    }
 }

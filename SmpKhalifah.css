@@ -621,16 +621,23 @@ body{
 .article-content {
     margin: 75px 0 15px;
 }
-.article-content .col-4 img{
-    width:352px; 
-    border-radius:10px
+.article-content .col{
+    display: flex
 }
-.article-content .col-6 h1{
+.article-content .col img{
+    width:352px; 
+    border-radius:10px;
+    margin: 15px;
+}
+.article-content .col h1{
+    margin: 15px;
     font-family: 'Poppins'; 
     font-size: 36px; 
     font-weight: bold
 }
-
+.article-content .col p{
+    margin: 15px;
+}
 /* .artikelSekolah .col-4{
     align-items: center;
 } */

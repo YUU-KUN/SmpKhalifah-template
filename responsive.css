@@ -1,0 +1,28 @@
+/* TABLET */
+@media (max-width: 800px) {
+    /* PROFIL SEKOLAH PAGE*/
+    .title1 img{
+        margin: auto 5px; 
+        width: 100px;
+    }
+    .profil-sekolah-logo-title {
+        font-weight: bold;
+        font-size: 36px;
+    }
+    .profil-sekolah-logo-subtitle{
+        font-weight: 300; 
+        font-size: 18px; 
+    }
+    .row4 .row .card{
+        margin: 35px;
+    }   
+
+    /* HUBUNGI KAMI PAGE*/
+    .formHubungiKami form{
+        width: 100%
+    }
+    .formHubungiKami button{
+        background-color: #3B6164; color: white; margin: 20px auto; width: 50%; height: 45px; border-radius: 5px;
+    }
+
+}

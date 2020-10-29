@@ -7,6 +7,7 @@
     <title>SMP KHALIFAH</title>
     <!-- STYLE -->
     <link rel="stylesheet" href="SmpKhalifah.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <!-- ICONS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -67,7 +68,7 @@
     <div id="nav">
         <!-- <div class="wrapper"> -->
         <nav class="navigation">
-            <a href="" style="text-decoration: none;">
+            <a href="" class="a-logo">
                 <div class="logo">
                     <img class="logo-img" src="./images/v0_294.png" alt="SMP KHALIFAH LOGO">
                     <div class="logo-text">
@@ -84,8 +85,7 @@
                         aria-haspopup="true" aria-expanded="false">
                         Beranda
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        style="border-top: 3px solid #3B6164; border-top-left-radius: 0; border-top-right-radius: 0;">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="">Sambutan Kepala Sekolah</a>
                         <a class="dropdown-item" href="">Video Profil</a>
                         <a class="dropdown-item" href="">Galeri Sekolah</a>
@@ -99,8 +99,7 @@
                         aria-haspopup="true" aria-expanded="false">
                         Tentang Kami
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        style="border-top: 3px solid #3B6164; border-top-left-radius: 0; border-top-right-radius: 0;">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="./ProfilSekolah.html">Profil Sekolah</a>
                         <a class="dropdown-item" href="">Visi, Misi, dan Tujuan Sekolah</a>
                         <a class="dropdown-item" href="">Program Sekolah</a>
@@ -261,87 +260,65 @@
     </div>
 
     <!-- GALERI SEKOLAH -->
-    <div class="row3"
-        style="text-align: center; padding: 44px; width: 100%; height:861px; align-content: center; font-family: 'Poppins'; box-shadow: inset 0 2px 7px lightgray;">
-        <h1 style=" font-weight: 700; font-size: 36px; color: #263138;">Galeri Sekolah</h1>
-        <hr style="margin: 35px auto; width: 160px; border: 3px solid; color: #3B6164">
+    <div class="row3">
+        <h1>Galeri Sekolah</h1>
+        <hr>
 
-        <div class="container">
-            <div class="row row-cols-4">
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_228.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_230.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_237.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_235.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_229.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_231.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_238.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <div class="col" style="padding: 15px 15px"><img src="./images/v0_236.png" alt="galeri-1"
-                        style="height:256px; width: 256px; object-fit: cover; box-shadow: -2px 2px 15px -5px lightslategrey;">
-                </div>
-                <!-- <div class="col">Column</div>
-                <div class="col">Column</div>
-                <div class="col">Column</div> -->
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col"><img src="./images/v0_228.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_230.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_237.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_235.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_229.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_231.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_238.png" alt="galeri-1">
+            </div>
+            <div class="col"><img src="./images/v0_236.png" alt="galeri-1">
             </div>
         </div>
+        <!-- </div> -->
 
-        <div style="margin: 15px auto;">
-            <a href="./GaleriSekolah.html"
-                style="text-decoration: none; color:#263138; font-weight: 700; font-size: 16px; ">Lihat
-                Selengkapnya >></a>
+        <div class="selengkapnya-GaleriSekolah">
+            <a href="./GaleriSekolah.html">Lihat Selengkapnya >></a>
         </div>
     </div>
 
     <!-- FASILITAS SEKOLAH -->
-    <div class="row4"
-        style="padding: 44px; width: 100%; height: 650px; align-content: center; font-family: 'Poppins'; background:#85EEEA; box-shadow: inset 0 2px 7px lightgray;">
-        <h1 style="text-align: center; font-family: 'Poppins'; font-weight: 700; font-size: 36px; color: #263138;">
-            Fasilitas Sekolah</h1>
-        <hr style="margin: 35px auto; width: 160px; border: 3px solid; color: #3B6164">
+    <div class="row4">
+        <h1>Fasilitas Sekolah</h1>
+        <hr>
 
-        <div class="row row-cols-4" style="margin-top: 50px ; justify-content: center;">
-            <div class="card"
-                style="width: 352px; margin: 0 32px; display:inline-block;box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
-                <img src="./images/v0_220.png" class="card-img-top" alt="perpustakaan"
-                    style="height:234px; object-fit: cover;">
-                <div class="card-body" style="margin: auto 20px;">
-                    <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Perpustakaan</h5>
-                    <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Lorem ipsum dolor
+        <div class="row row-cols-4">
+            <div class="card">
+                <img src="./images/v0_220.png" class="card-img-top" alt="perpustakaan">
+                <div class="card-body">
+                    <h5>Perpustakaan</h5>
+                    <p class="card-text">Lorem ipsum dolor
                         sit amet consetuer
                         ing elit diam uismod tincidunt Lorem ipsum li dolor.</p>
                 </div>
             </div>
-            <div class="card"
-                style="width: 352px; margin: 0 32px; display:inline-block; box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
-                <img src="./images/v0_221.png" class="card-img-top" alt="ruang kelas modern"
-                    style="height:234px; object-fit: cover;">
-                <div class="card-body" style="margin: auto 20px;">
-                    <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Ruang Kelas Modern</h5>
-                    <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Lorem ipsum dolor
+            <div class="card">
+                <img src="./images/v0_221.png" class="card-img-top" alt="ruang kelas modern">
+                <div class="card-body">
+                    <h5>Ruang Kelas Modern</h5>
+                    <p class="card-text">Lorem ipsum dolor
                         sit amet consetuer
                         ing elit diam uismod tincidunt Lorem ipsum li dolor.</p>
                 </div>
             </div>
-            <div class="card"
-                style="width: 352px; margin: 0 32px; display:inline-block; box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px; overflow: hidden; ">
-                <img src="./images/v0_222.png" class="card-img-top" alt="lapangan olahraga"
-                    style="height:234px; object-fit: cover;">
-                <div class="card-body" style="margin: auto 20px;">
-                    <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Lapangan Olahraga</h5>
-                    <p class="card-text" style="font-weight: medium; font-size: 12px; color:#263138">Lorem ipsum dolor
+            <div class="card">
+                <img src="./images/v0_222.png" class="card-img-top" alt="lapangan olahraga">
+                <div class="card-body">
+                    <h5>Lapangan Olahraga</h5>
+                    <p class="card-text">Lorem ipsum dolor
                         sit amet consetuer
                         ing elit diam uismod tincidunt Lorem ipsum li dolor.</p>
                 </div>
@@ -452,108 +429,97 @@
     </div> -->
 
     <!-- AGENDA SEKOLAH NEW -->
-    <div class="row3"
-        style="text-align: center; padding: 44px; width: 100%; height:689px; align-content: center; font-family: 'Poppins'; box-shadow: inset 0 2px 7px lightgray;">
-        <h1 style=" font-weight: 700; font-size: 36px; color: #263138;">Agenda Sekolah</h1>
-        <hr style="margin: 35px auto; width: 160px; border: 3px solid; color: #3B6164">
+    <div class="row3">
+        <h1>Agenda Sekolah</h1>
+        <hr>
 
         <div class="container">
-            <div class="row row-cols-5" style="justify-content: center; margin: 50px 0;">
-                <div class="card"
-                    style="width: 256px; height:393; margin: 0 auto; box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
-                    <img src="./images/v0_193.png" class="card-img-top" alt="ruang kelas modern"
-                        style="height:218px; width:256px; object-fit: cover;">
-                    <div class="card-body" style="margin: auto 20px;">
-                        <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Tahfidz Quran </h5>
-                        <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Lorem ipsum
+            <div class="row">
+                <div class="card-agenda">
+                    <img src="./images/v0_193.png" class="card-img-top" alt="ruang kelas modern">
+                    <div class="card-body">
+                        <h5>Tahfidz Quran </h5>
+                        <p class="card-text">Lorem ipsum
                             dolor sit amet consetuer ing elit diam uismod tincidunt Lorem ipsum li dolor</p>
                     </div>
                 </div>
-                <div class="card"
-                    style="width: 352px; height:393; margin: 0 auto;  box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
-                    <img src="./images/v0_194.png" class="card-img-top" alt="ruang kelas modern"
-                        style="height:218px; width:256px; object-fit: cover;">
-                    <div class="card-body" style="margin: auto 20px;">
-                        <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Outbond</h5>
-                        <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Lorem ipsum
+                <div class="card-agenda">
+                    <img src="./images/v0_194.png" class="card-img-top" alt="ruang kelas modern">
+                    <div class="card-body">
+                        <h5>Outbond</h5>
+                        <p class="card-text">Lorem ipsum
                             dolor sit amet consetuer ing elit diam uismod tincidunt Lorem ipsum li dolor</p>
                     </div>
                 </div>
-                <div class="card"
-                    style="width: 352px; height:393; margin: 0 auto;  box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
-                    <img src="./images/v0_204.png" class="card-img-top" alt="ruang kelas modern"
-                        style="height:218px; width:256px; object-fit: cover;">
-                    <div class="card-body" style="margin: auto 20px;">
-                        <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Kelas Entrepreneur</h5>
-                        <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Lorem ipsum
+                <div class="card-agenda">
+                    <img src="./images/v0_204.png" class="card-img-top" alt="ruang kelas modern">
+                    <div class="card-body">
+                        <h5>Kelas Entrepreneur</h5>
+                        <p class="card-text">Lorem ipsum
                             dolor sit amet consetuer ing elit diam uismod tincidunt Lorem ipsum li dolor</p>
                     </div>
                 </div>
-                <div class="card"
-                    style="width: 352px; height:393; margin: 0 auto;  box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
-                    <img src="./images/v0_203.png" class="card-img-top" alt="ruang kelas modern"
-                        style="height:218px; width:256px; object-fit: cover;">
-                    <div class="card-body" style="margin: auto 20px;">
-                        <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Boarding School</h5>
-                        <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Lorem ipsum
+                <div class="card-agenda">
+                    <img src="./images/v0_203.png" class="card-img-top" alt="ruang kelas modern">
+                    <div class="card-body">
+                        <h5>Boarding School</h5>
+                        <p class="card-text">Lorem ipsum
                             dolor sit amet consetuer ing elit diam uismod tincidunt Lorem ipsum li dolor</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div style="margin: 15px auto;">
-            <a href="" style="text-decoration: none; color:#263138; font-weight: 700; font-size: 16px; ">Lihat
-                Selengkapnya >></a>
+        <div class="selengkapnya-AgendaSekolah">
+            <a href="">Lihat Selengkapnya >></a>
         </div>
     </div>
 
     <!-- ARTIKEL SEKOLAH -->
     <div class="row4"
-        style="padding: 44px; width: 100%; height: 700px; align-content: center; font-family: 'Poppins'; background:white; box-shadow: inset 0 2px 7px lightgray;">
-        <h1 style="text-align: center; font-family: 'Poppins'; font-weight: 700; font-size: 36px; color: #263138;">
+        >
+        <h1 >
             Artikel Sekolah</h1>
-        <hr style="margin: 35px auto; width: 160px; border: 3px solid; color: #3B6164">
+        <hr>
 
-        <div class="row row-cols-4" style="margin: 50px auto; justify-content: center;">
+        <div class="row row-cols-4">
             <div class="card"
-                style="width: 352px; margin: 0 32px; display:inline-block;box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
+                >
                 <img src="./images/v0_175.png" class="card-img-top" alt="perpustakaan"
-                    style="height:234px; object-fit: cover;">
-                <div class="card-body" style="margin: auto 20px;">
-                    <h5 style="color: #3B6164; font-weight: bold; font-size:16px">MUMTAZ! KHALIFAH COMPETITION III</h5>
-                    <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Khalifah – Acara
+                    >
+                <div class="card-body" >
+                    <h5 >MUMTAZ! KHALIFAH COMPETITION III</h5>
+                    <p class="card-text" >Khalifah – Acara
                         rutinan yang di selenggarakan SMP Khalifah Islamic Boarding School ... <a href="">Lanjut
                             baca</a> </p>
                 </div>
             </div>
             <div class="card"
-                style="width: 352px; margin: 0 32px; display:inline-block; box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px;  overflow: hidden;">
+                >
                 <img src="./images/v0_176.png" class="card-img-top" alt="ruang kelas modern"
-                    style="height:234px; object-fit: cover;">
-                <div class="card-body" style="margin: auto 20px;">
-                    <h5 style="color: #3B6164; font-weight: bold; font-size:16px">Serunya Berpetualang ke Coban Rondo
+                    >
+                <div class="card-body" >
+                    <h5 >Serunya Berpetualang ke Coban Rondo
                     </h5>
-                    <p class="card-text" style="font-weight: medium; font-size:12px; color:#263138">Khalifah – Acara
+                    <p class="card-text" >Khalifah – Acara
                         rutinan yang di selenggarakan SMP Khalifah Islamic Boarding School ... <a href="">Lanjut
                             baca</a> </p>
                 </div>
             </div>
             <div class="card"
-                style="width: 352px; margin: 0 32px; display:inline-block; box-shadow: -2px 2px 15px -5px lightslategrey; border-radius: 10px; overflow: hidden; ">
+                >
                 <img src="./images/v0_177.png" class="card-img-top" alt="lapangan olahraga"
-                    style="height:234px; object-fit: cover;">
-                <div class="card-body" style="margin: auto 20px;">
-                    <h5 style="color: #3B6164; font-weight: bold; font-size:16px">MUMTAZ! KHALIFAH COMPETITION III</h5>
-                    <p class="card-text" style="font-weight: medium; font-size: 12px; color:#263138">Khalifah – Acara
+                    >
+                <div class="card-body" >
+                    <h5 >MUMTAZ! KHALIFAH COMPETITION III</h5>
+                    <p class="card-text" >Khalifah – Acara
                         rutinan yang di selenggarakan SMP Khalifah Islamic Boarding School ... <a href="">Lanjut
                             baca</a> </p>
                 </div>
             </div>
         </div>
-        <div style="margin: 15px auto; text-align: center;">
-            <a href="" style="text-decoration: none; color:#263138; font-weight: 700; font-size: 16px; ">Lihat
-                Selengkapnya >></a>
+        <div class="selengkapnya-ArtikelSekolah" >
+            <a href="">Lihat Selengkapnya >></a>
         </div>
     </div>
 
@@ -622,20 +588,19 @@
 
         </div>
     </footer> -->
-    <footer style="display: block">
-
+    <footer style="display: block; background-color: #263138;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
                     <h3>SMP Khalifah QEBS
                         Lawang - Malang</h3>
-                            Contact Information
-                            <ul class="list-unstyled">
-                                <li><a href="#">Beranda</a></li>
-                                <li><a href="#about">Tentang Kami</a></li>
-                                <li><a href="#services">Layanan</a></li>
-                                <li><a href="#testimoni">Testimoni</a></li>
-                            </ul>
+                    Contact Information
+                    <ul class="list-unstyled">
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                    </ul>
                 </div>
                 <div class="col-md-7 ml-auto">
                     <div class="row site-section pt-0">
@@ -681,7 +646,7 @@
 
         </div>
     </footer>
-    
+
 
 
     <!-- </div> -->

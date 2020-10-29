@@ -58,6 +58,9 @@ body{
     display: flex;
     justify-content: space-around;
 }
+#nav .navigation a{
+    text-decoration: none;
+}
 
 .logo{
     display: flex;
@@ -135,6 +138,12 @@ body{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+.dropdown-menu{
+    border-top: 3px solid #3B6164; 
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;
+}
 .dropdown-item{
     /* align-items: center; */
     text-align: center;
@@ -149,6 +158,7 @@ body{
     font-size: 14px;
 } */
 
+
 /* CAROUSEL */
 .carousel-item img {
     width: 100%;
@@ -159,17 +169,6 @@ body{
     /* align-items: center; */
     display: inline;
 }
-
-/* #foto-kepalaSekolah{
-    background: yellow;
-    width: 341.63px;
-}
-
-#content-kepalaSekolah{
-    background: cyan;
-    float: right;
-    width: 640px;
-} */
 
 .row1{
     display: flex;
@@ -239,15 +238,16 @@ body{
     /* margin-left: 8%; */
 }
 
-.img-kartu{
+.kartu .img-kartu{
     width: 342px;
     height: auto;
     margin: 0 auto;
     z-index: 1;
-    position: relative;
+    /* position: relative; */
+    /* object-fit: cover; */
 }
 
-.kartu-title{
+.kartu .kartu-title{
     height: 100px;
     z-index: 2;
     text-align: center;
@@ -316,16 +316,221 @@ body{
 
 
 .row3{
-    height: 861px;
     background-color:white;
+    text-align: center; 
+    padding: 44px; 
+    width: 100%; 
+    /* height:861px;  */
+    height: auto;
+    align-content: center; 
+    font-family: 'Poppins'; 
+    box-shadow: inset 0 2px 7px lightgray;
+}
 
+.row3 h1{
+    font-weight: 700; 
+    font-size: 36px; 
+    color: #263138;
+}
+.row3 hr{
+    margin: 35px auto; 
+    width: 160px; 
+    border: 3px solid; 
+    color: #3B6164
+}
+
+.row .col{
+    padding: 15px 15px;
+    
+}
+.col img{
+    height:256px; 
+    width: 256px; 
+    object-fit: cover; 
+    box-shadow: -2px 2px 15px -5px lightslategrey;
+}
+
+.selengkapnya-GaleriSekolah{
+    margin: 15px auto;
+}
+.selengkapnya-GaleriSekolah a{
+    text-decoration: none; 
+    color:#263138; 
+    font-weight: 700; 
+    font-size: 16px; 
+}
+
+/* FASILITAS SEKOLAH */
+.row4{
+    padding: 44px; 
+    width: 100%; 
+    height: 650px; 
+    align-content: center; 
+    font-family: 'Poppins'; 
+    background:#85EEEA; 
+    box-shadow: inset 0 2px 7px lightgray;
+}
+.row4 h1{
+    text-align: center; 
+    font-family: 'Poppins'; 
+    font-weight: 700; 
+    font-size: 36px; 
+    color: #263138;
+}
+.row4 hr{
+    margin: 35px auto;
+    width: 160px; 
+    border: 3px solid; 
+    color: #3B6164
+}
+.row{
+    margin: 50px 0 ; 
+    justify-content: center;
+}
+
+.row .card{
+    width: 352px; 
+    margin: 0 32px; 
+    display:inline-block;
+    box-shadow: -2px 2px 15px -5px lightslategrey; 
+    border-radius: 10px;  
+    overflow: hidden;
+}
+
+.row .card .card-img-top{
+    height:234px; 
+    object-fit: cover;
+}
+.row .card .card-body{
+    margin: auto 20px;
+}
+.row .card .card-body h5{
+    color: #3B6164; 
+    font-weight: bold; 
+    font-size:16px
+}
+.row .card .card-body .card-text{
+    font-weight: medium; 
+    font-size:12px; 
+    color:#263138
 }
 
 
-/* .card:hover{
-    transform: translateY(-10px);
+/* AGENDA SEKOLAH NEW */
+.row3{ 
+    justify-content: center;
+}
+.row3 .card-agenda{
+    width: 256px; 
+    height:393; 
+    margin: 0 auto; 
+    box-shadow: -2px 2px 15px -5px lightslategrey; 
+    border-radius: 10px;  
+    overflow: hidden;
+}
+.row3 .card-agenda img{
+    height:218px; 
+    width:256px; 
+    object-fit: cover;
+}
+.row3 .card-agenda .card-body{
+    margin: auto 20px;
+}
+.row3 .card-agenda .card-body h5{
+    color: #3B6164; 
+    font-weight: bold; 
+    font-size:16px
+}
+.row3 .card-agenda .card-body p{
+    font-weight: medium; 
+    font-size:12px; 
+    color:#263138
+}
+
+.selengkapnya-AgendaSekolah{
+    margin: 15px auto;
+}
+.selengkapnya-AgendaSekolah a{
+    text-decoration: none; 
+    color:#263138; 
+    font-weight: 700; 
+    font-size: 16px;
+}
+
+/* .row3 .card{
+    margin: 0 auto;  
+    
+    width: 352px;
+    display:inline-block;
+    box-shadow: -2px 2px 15px -5px lightslategrey; 
+    border-radius: 10px;  
+    overflow: hidden;
+}
+.row3 .card .card-img-top{
+    height:234px; 
+    object-fit: cover;
+}
+.row3 .card .card-body{
+    margin: auto 20px;
+}
+.row3 .card .card-body h5{
+    color: #3B6164; 
+    font-weight: bold; 
+    font-size:16px
+}
+.row3 .card .card-body .card-text{
+    font-weight: medium; 
+    font-size:12px; 
+    color:#263138
 } */
 
+/* ARTIKEL SEKOLAH */
+.row4{
+    padding: 44px; 
+    width: 100%; 
+    height: 700px; 
+    align-content: center; 
+    font-family: 'Poppins'; 
+    background:white; 
+    box-shadow: inset 0 2px 7px lightgray;
+}
+.row4 h1{
+    text-align: center; 
+    font-family: 'Poppins'; 
+    font-weight: 700; 
+    font-size: 36px; 
+    color: #263138;
+}
+.row4 hr{
+    margin: 35px auto; 
+    width: 160px; 
+    border: 3px solid; 
+    color: #3B6164
+}
+/* .row .row-cols-4{
+    margin: 50px auto; 
+    justify-content: center;
+} */
+/* .card-artikelSekolah{
+    width: 352px; 
+    margin: 0 32px; 
+    display:inline-block;
+    box-shadow: -2px 2px 15px -5px lightslategrey; 
+    border-radius: 10px;  
+    overflow: hidden;
+} */
+.selengkapnya-ArtikelSekolah{
+    margin: 15px auto; 
+    text-align: center;
+}
+.selengkapnya-ArtikelSekolah a{
+    text-decoration: none; 
+    color:#263138; 
+    font-weight: 700; 
+    font-size: 16px; 
+}
+
+/*PROFIL SEKOLAH PAGE*/
 .profil-sekolah{
     padding: 44px 8%;
     width: 100%;
@@ -337,7 +542,26 @@ body{
     box-shadow: inset 0 2px 7px lightgray;
     /* display: flex; */
 }
-
+.profil-sekolah .title1{
+    align-items: center; 
+    justify-content: center; 
+    display: flex;
+}
+.title1 img{
+    margin: auto 5px; 
+    width: 157px;
+}
+.profil-sekolah-logo{
+    color: #3B6164; 
+    text-align: center; 
+}.profil-sekolah-logo-title{
+    font-weight: bold; 
+    font-size: 70px;
+}
+.profil-sekolah-logo-subtitle{
+    font-weight: 300; 
+    font-size: 34px; 
+}
 .profil-sekolah hr{
     margin: 35px auto; 
     width: 160px;
@@ -354,9 +578,11 @@ body{
 .profil-sekolah p{
     text-align: center;
 }
-
 .profil, .visi, .misi, .tujuan{
     margin: 75px auto; 
+}
+.program-sekolah .row4{
+    height: auto;
 }
 
 .hubungi-kami, .ppdb, .artikelDetail, .artikelSekolah{
@@ -389,3 +615,80 @@ body{
     background: #3B6164;
     /* align-items: center; */
 }
+
+
+/* ARTIKEL SKEOLAH PAGE*/
+.article-content {
+    margin: 75px 0 15px;
+}
+.article-content .col-4 img{
+    width:352px; 
+    border-radius:10px
+}
+.article-content .col-6 h1{
+    font-family: 'Poppins'; 
+    font-size: 36px; 
+    font-weight: bold
+}
+
+/* .artikelSekolah .col-4{
+    align-items: center;
+} */
+
+/* ARTIKEL DETAIL PAGE */
+.artikelDetail .content{
+    margin: 75px 0 15px;
+}
+.artikelDetail img{
+    width: 100%; 
+    margin: 35px auto;
+}
+
+
+/* HUBUNGI KAMI PAGE */
+.hubungi-kami .title1{
+    align-items: center; 
+    justify-content: center; 
+    display: flex; 
+}
+.alamat, .email, .telepon, .waktuOperasional, .mediaSosial, .formHubungiKami{
+    margin: 75px auto;
+}
+.formHubungiKami form{
+    width: 50%
+}
+.formNamaLengkap, .formEmail, .formAjukanPertanyaan{
+    margin: 10px auto; width: 100%;
+}
+.formHubungiKami button{
+    background-color: #3B6164; color: white; margin: 20px auto; width: 50%; height: 45px; border-radius: 5px;
+}
+
+
+/* PPDB PAGE */
+.banner img{
+    width: 100%;
+}
+.pendaftaran{
+    margin: 75px auto;
+}
+.pendaftaran a{
+    font-weight: bold
+}
+.pendaftaran form{
+    width: 100%;
+    align-content: center; 
+    justify-content: center;
+}
+.pendaftaran form .form-group textarea{
+    height:112px
+}
+.pendaftaran form button{
+    background-color: #3B6164; 
+    color: white; 
+    margin: 20px auto; 
+    width: 300px; 
+    height: 45px; 
+    border-radius: 5px;
+}
+

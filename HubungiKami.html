@@ -8,6 +8,7 @@
 
     <!-- STYLE -->
     <link rel="stylesheet" href="SmpKhalifah.css">
+    <link rel="stylesheet" href="./responsive.css">
 
     <!-- ICONS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -66,7 +67,7 @@
     <div id="nav">
         <!-- <div class="wrapper"> -->
         <nav class="navigation">
-            <a href="./SmpKhalifah.html" style="text-decoration: none;">
+            <a href="./SmpKhalifah.html">
                 <div class="logo">
                     <img class="logo-img" src="./images/v0_294.png" alt="SMP KHALIFAH LOGO">
                     <div class="logo-text">
@@ -83,8 +84,7 @@
                         aria-haspopup="true" aria-expanded="false">
                         Beranda
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        style="border-top: 3px solid #3B6164; border-top-left-radius: 0; border-top-right-radius: 0;">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="">Sambutan Kepala Sekolah</a>
                         <a class="dropdown-item" href="">Video Profil</a>
                         <a class="dropdown-item" href="">Galeri Sekolah</a>
@@ -98,8 +98,7 @@
                         aria-haspopup="true" aria-expanded="false">
                         Tentang Kami
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        style="border-top: 3px solid #3B6164; border-top-left-radius: 0; border-top-right-radius: 0;">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="./ProfilSekolah.html">Profil Sekolah</a>
                         <a class="dropdown-item" href="#sectionVisi">Visi, Misi, dan Tujuan Sekolah</a>
                         <a class="dropdown-item" href="">Program Sekolah</a>
@@ -145,32 +144,31 @@
     </div>
 
     <!-- HUBUNGI KAMI -->
-    <div class="hubungi-kami" >
-        <div class="title1" style="align-items: center; justify-content: center; display: flex; ">
-            <img class="profil-sekolah-img" src="./images/v0_294.png" alt="SMP KHALIFAH LOGO"
-                style="margin: auto 5px; width: 157px;">
-            <div class="profil-sekolah-logo" style="color: #3B6164; text-align: center; ">
-                <span class="profil-sekolah-logo-title" style="font-weight: bold; font-size: 70px;"> SMP KHALIFAH
+    <div class="hubungi-kami">
+        <div class="title1">
+            <img src="./images/v0_294.png" alt="LOGO">
+            <div class="profil-sekolah-logo">
+                <span class="profil-sekolah-logo-title"> SMP KHALIFAH
                     QEBS</span> <br>
-                <span class="proifl-sekolah-logo-subtitle" style="font-weight: 300; font-size: 34px; ">Qurani
+                <span class="profil-sekolah-logo-subtitle">Qurani
                     Entrepreneurship Boarding School</span>
             </div>
         </div>
 
-        <div class="alamat" style="margin: 75px auto;">
+        <div class="alamat">
             <h1>Alamat</h1>
             <hr>
             <p>
                 Jl. A Yani No.215, Sumber Porong, Lawang, Malang, Jawa Timur 65216</p>
         </div>
 
-        <div class="email" id="sectionVisi" style="margin: 75px auto;">
+        <div class="email" id="sectionVisi">
             <h1>Email</h1>
             <hr>
             <p>smpkhalifahqebs@gmail.com</p>
         </div>
 
-        <div class="telepon" style="margin: 75px auto;">
+        <div class="telepon">
             <h1>Telepon</h1>
             <hr>
             <p>+62 857-9090-9646 <br>
@@ -178,7 +176,7 @@
             </p>
         </div>
 
-        <div class="waktuOperasional" style="margin: 35px auto;">
+        <div class="waktuOperasional">
             <h1>Waktu Operasional</h1>
             <hr>
             <p>
@@ -186,7 +184,7 @@
                 08.00 - 16.00 WIB
             </p>
         </div>
-        <div class="mediaSosial" style="margin: 35px auto;">
+        <div class="mediaSosial">
             <h1>Media sosial</h1>
             <hr>
             <table>
@@ -215,16 +213,15 @@
                 Instagram   : @khalifahqebs <br>
                 Youtube     : SMP Khalifah QEBS -->
         </div>
-        <div class="formHubungiKami" style="margin: 35px auto;">
+        <div class="formHubungiKami">
             <h1>Atau hubungi kami disini</h1>
             <hr>
             <form action="" method="POST">
-                <input type="text" class="formNamaLengkap" placeholder="Nama lengkap" style="width: 734px;"> <br>
-                <input type="text" class="formEmail" placeholder="Alamat email" style="margin: 20px auto; width: 734px;"><br> 
-                <textarea name="formAjukanPertanyaan" id="" cols="30" rows="10" placeholder="Ajukan pertanyaan anda disini" style="width: 734px; display: block;"></textarea>
-                <!-- HOW TO SOLVE THIS INPUT PANEL? -->
-                <!-- <input type="text" class="formAjukanPertanyaan" placeholder="Ajukan pertanyaan anda disini" style="width: 734px; padding-bottom: 312px; word-wrap:break-word;"> <br>  -->
-                <button type="submit" style="background-color: #3B6164; color: white; margin: 20px auto; width: 300px; height: 45px; border-radius: 5px;">KIRIM</button>
+                <input type="text" class="formNamaLengkap" placeholder="Nama lengkap"> <br>
+                <input type="text" class="formEmail" placeholder="Alamat email"><br>
+                <textarea name="formAjukanPertanyaan" class="formAjukanPertanyaan" id="" cols="30" rows="10"
+                    placeholder="Ajukan pertanyaan anda disini"></textarea> <br>
+                <button type="submit">KIRIM</button>
 
             </form>
         </div>

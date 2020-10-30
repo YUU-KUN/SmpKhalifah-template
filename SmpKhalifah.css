@@ -179,7 +179,9 @@ body{
     padding-right: 8%;
     box-sizing: border-box;
 }
-.col{
+.row1 .col{
+    justify-content: space-around;
+    display: flex;
     /* align-items: center; */
     flex-basis: 50%;
     /* margin-left: 50px; */
@@ -206,36 +208,15 @@ body{
     width: 600px;
 }
 
-/* .kartu{
-    border: 2px solid red;
-    border-radius: 3%;
-    width: 332.89px;
-    margin: auto;
-}
-.kartu img{
-    margin: 0px;
-}
-
-.kartu-text{
-    margin: auto;
-    padding: 15px;
-    text-align: center;
-    background-color: yellow;
-} */
-
 .kartu{
     background-color: lightgray;
-    /* background: url(./images/v0_256.png); */
     border: 1px solid white;
-    /* background-repeat: no-repeat; */
     display: inline-block;
     border-radius: 1%;
     box-shadow: -2px 2px 15px -5px lightslategrey;
-    /* height: 435px; */
     height: 475px;
     width: 342px;
     overflow: hidden;
-    /* margin-left: 8%; */
 }
 
 .kartu .img-kartu{
@@ -276,6 +257,7 @@ body{
 }
 
 .col2{
+    display: flex;
     padding: 0 20px;
     align-items: center;
     /* margin: auto ; */
@@ -284,7 +266,9 @@ body{
     color: white;
     font-weight: 300;
 }
-
+.col2 div{
+    padding: 0 15px;
+}
 .col2 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -302,7 +286,8 @@ body{
 } 
 
 .col2 p{
-    font-size: 18px;
+    font-size: 14px;
+    /* font-size: 18px; */
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     width: 448px;
@@ -554,7 +539,8 @@ body{
 .profil-sekolah-logo{
     color: #3B6164; 
     text-align: center; 
-}.profil-sekolah-logo-title{
+}
+.profil-sekolah-logo-title{
     font-weight: bold; 
     font-size: 70px;
 }

@@ -10,6 +10,33 @@ body{
     box-sizing: border-box;
 } */
 
+/* footer */
+.footer .wrap{
+    font-family: 'Poppins'; 
+    display: block; 
+    background-color: #3B6164; 
+    height: auto; 
+    color: white; 
+    padding: 44px 8%; 
+    justify-content: space-around;
+}
+.footer-title{
+    display: flex; 
+    width: 300px; 
+    font-weight: 700;
+}
+.footer .wrap .row{
+    margin: auto 0;
+}
+.footer .wrap .row .col{
+    padding: 0; 
+    height: auto;
+}
+.row .col h3{
+    font-size: 16px; 
+    font-weight: 700;
+}
+
 .header {
     background-color: #3B6164;
     position: relative;

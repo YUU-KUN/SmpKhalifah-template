@@ -153,7 +153,7 @@ body{
     /* display: block; */
     /* margin: 0 15px; */
 }
-.nav-items li address{
+.nav-items li button{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: black;
@@ -161,12 +161,12 @@ body{
     opacity: 50%;
     font-size: 14px;
 }
-.nav-items li a:hover{
+.nav-items li button:hover{
     background-color: #3B6164;
     color: white;
     opacity: 100%;
 }
-.nav-items li a:focus{
+.nav-items li button:focus{
     background-color: #3B6164;
     color: white;
     /* border: 15px #3B6164; */

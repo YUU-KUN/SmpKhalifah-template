@@ -1,5 +1,30 @@
 /* TABLET */
 @media (max-width: 800px) {
+    /* header */
+    .search{
+        display: none;
+    }
+    
+    .contact-left{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 44px;
+        /* position: fixed; */
+        display: inline;
+        float: left;
+    }
+    .contact-right{
+        float: right;
+        /* justify-content: center; */
+        /* display: flex; */
+        margin: auto;
+        margin-right: 44px;
+    }
+
+    /* navbar */
+    .nav-item .form-inline{
+        display: contents;
+    }
+    
     /* HOME PAGE */
     /* sambutan kepala sekolah */
     .sambutanKepalaSekolah{
@@ -250,12 +275,44 @@
     .artikelDetail .content p{
         font-size: 16px;
     }
+
+    /* HEADER */
+    
 }
 
 @media (max-width: 414px){
     /* HOME PAGE */
-    /* sambutan kepala sekolah */
+    /* header */
+    .contact-left{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 8%;
+        /* position: fixed; */
+        width: auto;
+        /* display: inline; */
+        display: none;
+        float: left;
+    }
+    .contact-right{
+        float: right;
+        /* justify-content: center; */
+        /* display: flex; */
+        /* margin: auto; */
+        margin-right: 0;
+    }
+    .search{
+        display: none;
+    }
 
+    /* navbar */
+    .logo .logo-text{
+        display: none;
+    }
+    .nav-item .form-inline{
+        display: contents;
+    }
+
+
+    /* sambutan kepala sekolah */
     .kartu{
         background-color: lightgray;
         border: 1px solid white;

@@ -25,11 +25,13 @@
 <body>
     <div class="header">
         <div class="contact-left">
+
             <div class="whatsapp">
                 <img src="./images/v0_301.png" alt="whatsapp" height="20">+62 857-9090-9646
             </div>
+
             <div class="mail">
-                <img src="./images/mail_outline-white-18dp/1x/outline_mail_outline_white_18dp.png" alt="mail" srcset="">
+                <img src="./images/mail_outline-white-18dp/1x/outline_mail_outline_white_18dp.png" alt="mail">
                 smpkhalifahqebs@gmail.com
             </div>
         </div>
@@ -45,92 +47,73 @@
                 <img src="./images/youtube.png" alt="youtube">
             </span>
             <span>
-                <input class="search" type="search" placeholder="Pencarian..."> <span><img src="./images/search.png"
-                        alt="search logo"></span>
+                <input class="search" type="search" placeholder="Pencarian..." style="border-radius: 15px;">
             </span>
         </div>
     </div>
 
-    <div id="nav">
-        <!-- <div class="wrapper"> -->
-        <nav class="navigation">
-            <a href="./SmpKhalifah.html">
-                <div class="logo">
-                    <img class="logo-img" src="./images/v0_294.png" alt="SMP KHALIFAH LOGO">
-                    <div class="logo-text">
-                        <span class="title"> SMP KHALIFAH QEBS</span> <br>
-                        <span class="subtitle">Qurani Entrepreneurship Boarding School</span>
-                    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%;">
+        <a href="./SmpKhalifah.html" class="a-logo">
+            <div class="logo">
+                <img class="logo-img" src="./images/v0_294.png" alt="SMP KHALIFAH LOGO">
+                <div class="logo-text">
+                    <span class="title"> SMP KHALIFAH QEBS</span> <br>
+                    <span class="subtitle">Qurani Entrepreneurship Boarding School</span>
                 </div>
-            </a>
-
-            <ul class="nav-items">
-                <li>
-                    <!-- <a href="">Beranda</a> -->
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding-left: 5%">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./SmpKhalifah.html" id="navbarDropdownMenuLink"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Beranda
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        >
-                        <a class="dropdown-item" href="">Sambutan Kepala Sekolah</a>
-                        <a class="dropdown-item" href="">Video Profil</a>
-                        <a class="dropdown-item" href="">Galeri Sekolah</a>
-                        <a class="dropdown-item" href="">Fasilitas</a>
-                        <a class="dropdown-item" href="">Agenda Sekolah</a>
-                        <a class="dropdown-item" href="">Informasi Sekolah</a>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./SmpKhalifah.html">Sambutan Kepala Sekolah</a>
+                        <a class="dropdown-item" href="./SmpKhalifah.html">Video Profil</a>
+                        <a class="dropdown-item" href="./SmpKhalifah.html">Galeri Sekolah</a>
+                        <a class="dropdown-item" href="./SmpKhalifah.html">Fasilitas</a>
+                        <a class="dropdown-item" href="./SmpKhalifah.html">Agenda Sekolah</a>
+                        <a class="dropdown-item" href="./SmpKhalifah.html">Informasi Sekolah</a>
                     </div>
                 </li>
-                <li>
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="./ProfilSekolah.html" id="navbarDropdownMenuLink"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Tentang Kami
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        >
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./ProfilSekolah.html">Profil Sekolah</a>
-                        <a class="dropdown-item" href="#sectionVisi">Visi, Misi, dan Tujuan Sekolah</a>
-                        <a class="dropdown-item" href="">Program Sekolah</a>
+                        <a class="dropdown-item" href="./ProfilSekolah.html">Visi, Misi, dan Tujuan Sekolah</a>
+                        <a class="dropdown-item" href="./ProfilSekolah.html">Program Sekolah</a>
                     </div>
-                    <!-- <a href="">Tentang Kami</a> -->
                 </li>
-                <li>
-                    <a href="./GaleriSekolah.html">
-                        <button class="btn" type="button">
-                            Gallery
-                        </button>
-                    </a>
-                    <!-- <a href="#">Gallery</a> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./GaleriSekolah.html">Gallery</a>
                 </li>
-                <li>
-                    <a href="./ArtikelSekolah.html">
-                        <button class="btn" type="button">
-                            Artikel
-                        </button>
-                    </a>
-                    <!-- <a href="">Artikel</a> -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Artikel</a>
                 </li>
-                <li>
-                    <a href="./HubungiKami.html">
-                        <button class="btn" type="button">
-                            Hubungi Kami
-                        </button>
-                    </a>
-                    <!-- <a href="">Hubungi Kami</a> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./HubungiKami.html">Hubungi Kami</a>
                 </li>
-                <li>
-                    <a href="./PPDB.html">
-                        <button class="btn" type="button">
-                            PPDB
-                        </button>
-                    </a>
-                    <!-- <a href="">PPDB</a> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./PPDB.html">PPDB</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pencarian" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+                    </form>
                 </li>
             </ul>
-
-        </nav>
-        <!-- </div> -->
-    </div>
+        </div>
+    </nav>
 
     <!-- ARTIKEL DETAIL -->
     <div class="artikelDetail">
@@ -139,13 +122,12 @@
             <hr>
         </div>
 
-        <div class="content" >
+        <div class="content">
             <h1>Serunya Berpetualang ke Coban Rondo</h1>
             <p>Outbound dalam program mengenal alam sekitar</p>
         </div>
 
-        <img src="./images/v0_176.png" alt="Outbound dalam program mengenal alam sekitar"
-            >
+        <img src="./images/v0_176.png" alt="Outbound dalam program mengenal alam sekitar">
 
         <div class="text">
             <p>
@@ -186,20 +168,20 @@
                 dengan lancar para santri menikmati penuh dengan keceriaan dan game-game yang sangat seru.
                 (oky/khalifah)</p>
 
-            <p><b> This entry was posted in <a href="">Uncategorized</a> on <a href="">December 31, 2018</a> by <a href="">transbara96</a>.</b></p>
+            <p><b> This entry was posted in <a href="">Uncategorized</a> on <a href="">December 31, 2018</a> by <a
+                        href="">transbara96</a>.</b></p>
 
         </div>
     </div>
 
     <div class="artikelDetail">
 
-        <div class="content" >
+        <div class="content">
             <h1>MUMTAZ! KHALIFAH COMPETITION III</h1>
             <p>Aneka Lomba yang diadakan SMP Khalifah untuk tingkat SD</p>
         </div>
 
-        <img src="./images/v0_175.png" alt="Outbound dalam program mengenal alam sekitar"
-            >
+        <img src="./images/v0_175.png" alt="Outbound dalam program mengenal alam sekitar">
 
         <div class="text">
             <p>
@@ -249,13 +231,112 @@
                 bisa di adakan setiap tahunya dan semakin meriah ungkap Transbara wahyu firmansya kepalah sekolah SMP
                 Khalifah Islamic Boarding School.</p>
 
-            <p><b> This entry was posted in <a href="">Uncategorized</a> on <a href="">December 31, 2018</a> by <a href="">Oky</a>.
-            </b></p>
+            <p><b> This entry was posted in <a href="">Uncategorized</a> on <a href="">December 31, 2018</a> by <a
+                        href="">Oky</a>.
+                </b></p>
 
         </div>
     </div>
 
-    <footer>
+    <footer class="footer" role="contentinfo">
+        <div
+            style="font-family: 'Poppins'; display: block; background-color: #3B6164; height: auto; color: white; padding: 44px 8%; justify-content: space-around;">
+            <div style="display: flex; width: 300px; font-weight: 700;">
+                <h3><b>SMP Khalifah QEBS Lawang - Malang</b></h3>
+            </div>
+            <div class="row" style="margin: auto 0;">
+
+                <div class="col" style="padding: 0; height: auto;">
+                    <div class="row">
+                        <div class="col">
+                            <h3 style="font-size: 16px; font-weight: 700;">Contact Information</h3>
+                            <div style="display: flex; margin: 20px auto; width: auto;">
+                                <div style="margin-right: 25px; width: 50px; font-size: 14px; font-weight: 700;">
+                                    Office:
+                                </div>
+                                <div style="width: 300px; font-size: 14px; font-weight: 400;">Jl. A Yani No.215,
+                                    Sumber
+                                    Porong, Lawang,
+                                    Kabupaten Malang Jawa Timur 63129</div>
+                            </div>
+                            <div style="display: flex; margin: 20px auto; width: auto;">
+                                <div style="margin-right: 25px; width: 50px; font-size: 14px; font-weight: 700;">
+                                    <b>Email:</b></div>
+                                <div style="width: 300px; font-size: 14px; font-weight: 400;"">khalifahqebs@gmail.com <br>
+                                    officialkhalifah@gmail.com</div>
+                            </div>
+                            <div style=" display: flex; margin: 20px auto; width: auto;">
+                                    <div style="margin-right: 25px; width: 50px; font-size: 14px; font-weight: 700;">
+                                        <b>Phone:</b></div>
+                                    <div style="width: 300px; font-size: 14px; font-weight: 400;">+62 811001220398
+                                        <br>
+                                        +62 811001220009</div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 20px ;">Quick Link</h3>
+                                <ul class="list-unstyled">
+                                    <li style="width: 100%; "><a href="#"
+                                            style="width: 300px; font-size: 14px; font-weight: 400; text-decoration: none; color: white;">Beranda</a>
+                                    </li>
+                                    <li style="width: 100%;"><a href="./ProfilSekolah.html"
+                                            style="width: 300px; font-size: 14px; font-weight: 400; text-decoration: none; color: white;">Tentang
+                                            Kami</a></li>
+                                    <li style="width: 100%;"><a href="./GaleriSekolah.html"
+                                            style="width: 300px; font-size: 14px; font-weight: 400; text-decoration: none; color: white;">Galeri</a>
+                                    </li>
+                                    <li style="width: 100%;"><a href="./HubungiKami.html"
+                                            style="width: 300px; font-size: 14px; font-weight: 400; text-decoration: none; color: white;">Hubungi
+                                            Kami</a>
+                                    </li>
+                                    <li style="width: 100%;"><a href="./PPDB.html"
+                                            style="width: 300px; font-size: 14px; font-weight: 400; text-decoration: none; color: white;">PPDB</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 20px ;">Lokasi Kami
+                                </h3>
+                                <a data-fancybox="lokasiKami" data-caption="SMP Khalifah QEBS Malang"
+                                    href="./images/v0_159.png"><img src="./images/v0_159.png" class="card-img-top"
+                                        alt="Lokasi Kami" width="auto"></a>
+                            </div>
+
+                            <div class="col">
+                                <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 20px ;">Media Sosial
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li style="width: 100%;"><a href="#"
+                                            style="text-decoration: none; color: white;">Facebook</a></li>
+                                    <li style="width: 100%;"><a href="https://www.instagram.com/khalifah.qebs/"
+                                            style="text-decoration: none; color: white;">Instagram</a></li>
+                                    <li style="width: 100%;"><a
+                                            href="https://www.youtube.com/channel/UCZInMogdoZVVm3u1YB9jb2A"
+                                            style="text-decoration: none; color: white;">Youtube</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center" style="background-color: black; margin: auto;">
+                <div class="col">
+                    <p class="copyright" style="margin: auto; color: white; font-family: 'Roboto'; font-size: 14px;">
+                        KHALIFAH QEBS © Copyright 2020. Last Updated 2020. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col">
+                    <p class="copyright" style="margin: auto; color: white; font-family: 'Roboto'; font-size: 14px;">
+                        <a href="./ProfilSekolah.html" style="text-decoration:none; color: white;">FAQs</a> | <a
+                            href="./PPDB.html" style="text-decoration:none; color: white;">Daftar Sekarang</a> | <a
+                            href="./HubungiKami.html" style="text-decoration:none; color: white;">Hubungi Kami</a>
+                    </p>
+                </div>
+            </div>
 
     </footer>
 

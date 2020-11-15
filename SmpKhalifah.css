@@ -247,13 +247,13 @@ body{
     display: inline-block;
     border-radius: 1%;
     box-shadow: -2px 2px 15px -5px lightslategrey;
-    height: 475px;
+    height: auto;
     width: 342px;
     overflow: hidden;
 }
 
 .kartu .img-kartu{
-    width: 342px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     z-index: 1;
@@ -406,10 +406,18 @@ body{
     justify-content: center;
 }
 
+.row .owl-carousel.owl-theme.loop .card{
+    width: auto;
+    margin: 0 32px; 
+    display: inline-block;
+    box-shadow: -2px 2px 15px -5px lightslategrey; 
+    border-radius: 10px;  
+    overflow: hidden;
+}
 .row .card{
     width: 352px; 
     margin: 0 32px; 
-    display:inline-block;
+    display: inline-block;
     box-shadow: -2px 2px 15px -5px lightslategrey; 
     border-radius: 10px;  
     overflow: hidden;

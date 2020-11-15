@@ -1,0 +1,450 @@
+/* TABLET */
+@media (max-width: 800px) {
+    /* header */
+    .search{
+        display: none;
+    }
+    
+    .contact-left{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 44px;
+        /* position: fixed; */
+        display: inline;
+        float: left;
+    }
+    .contact-right{
+        float: right;
+        /* justify-content: center; */
+        /* display: flex; */
+        margin: auto;
+        margin-right: 44px;
+    }
+
+    /* navbar */
+    .nav-item .form-inline{
+        display: contents;
+    }
+    
+    /* HOME PAGE */
+    /* sambutan kepala sekolah */
+    .sambutanKepalaSekolah{
+        /* align-items: center; */
+        display: inline;
+    }
+    
+    .row1{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding: 75px 8%;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    .row1 .col{
+        justify-content: space-around;
+        display: flex;
+        /* align-items: center; */
+        flex-basis: 50%;
+        /* margin-left: 50px; */
+        /* margin: auto ; */
+    }
+    .row1 .col div{
+        margin: 15px;
+        padding: auto 0;
+    }
+    .col h1{
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        width: 100%;
+    }
+    .col hr{
+        margin: 35px auto; 
+        width: 160px;
+        height: 5px;
+        background: #3B6164;
+    } 
+    .col p{
+        color: black;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        opacity: 70%;
+        width: 100%;
+    }
+    
+    .kartu{
+        background-color: lightgray;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 1%;
+        box-shadow: -2px 2px 15px -5px lightslategrey;
+        height: auto;
+        width: 200px;
+        /* height: 475px; */
+        /* width: 342px; */
+        overflow: hidden;
+    }
+    
+    .kartu .img-kartu{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        /* position: relative; */
+        /* object-fit: cover; */
+    }
+    
+    .col .kartu .kartu-title{
+        margin:0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background-color: white;
+        border-radius: 1%;
+        padding: auto;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .kartu-title h5{
+        width: 100%;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #3B6164;
+    }
+
+    /* outbond */
+    .row2{
+        padding: 75px 44px;
+        height: auto;
+    }
+    .row2 .col2 div{
+        padding: 0 15px;
+    }
+    .row2 .col2{
+        display: inline;
+        padding: 0;
+        align-items: center;
+        color: white;
+        font-weight: 300;
+    }
+    
+    .col2 h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        /* font-size: 24px; */
+        margin: 0;
+    }
+    /* .col2 h6{
+        font-size: 14px;
+    } */
+    .col2 hr{
+        margin: 35px 0; 
+        width: 160px;
+        height: 5px;
+        background: white;
+    } 
+    
+    .col2 p{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        width: 448px;
+    }
+    
+    .col2 .img-video{
+        margin: 35px auto;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+    }
+
+    /* fasilitas sekolah */
+    .row4{
+        height: auto;
+    }
+
+    /* agenda sekolah */
+    .row3 .card-agenda{
+        width: 256px; 
+        height: 353px; 
+        margin: 35px auto; 
+        box-shadow: -2px 2px 15px -5px lightslategrey; 
+        border-radius: 10px;  
+        overflow: hidden;
+    }
+    .row3 .card-agenda img{
+        height:218px; 
+        width:256px; 
+        object-fit: cover;
+    }
+    .row3 .card-agenda .card-body{
+        margin: auto 20px;
+    }
+    .row3 .card-agenda .card-body h5{
+        color: #3B6164; 
+        font-weight: bold; 
+        font-size:16px
+    }
+    .row3 .card-agenda .card-body p{
+        font-weight: medium; 
+        font-size:12px; 
+        color:#263138
+    }
+    
+    .selengkapnya-AgendaSekolah{
+        margin: 15px auto;
+    }
+    .selengkapnya-AgendaSekolah a{
+        text-decoration: none; 
+        color:#263138; 
+        font-weight: 700; 
+        font-size: 16px;
+    }
+
+    /* PROFIL SEKOLAH PAGE*/
+    .title1 img{
+        margin: auto 5px; 
+        width: 100px;
+    }
+    .profil-sekolah-logo-title {
+        font-weight: bold;
+        font-size: 36px;
+    }
+    .profil-sekolah-logo-subtitle{
+        font-weight: 300; 
+        font-size: 18px; 
+    }
+
+    .row4 .row .card{
+        margin: 35px;
+    }
+
+    .row4 .row .owl-carousel.owl-theme.loop .card{
+        width: 352px; 
+        margin: auto;
+        align-items: center;
+        display: flex;
+        /* display: inline-block; */
+        box-shadow: -2px 2px 15px -5px lightslategrey; 
+        border-radius: 10px;  
+        overflow: hidden;
+    }
+
+
+    /* GALERI PAGE */
+    /* .row3 {
+        display: none;
+    }
+    .row3 .row .col img{
+        width: 150px;
+        height: auto;
+    } */
+
+    /* HUBUNGI KAMI PAGE*/
+    .formHubungiKami form{
+        width: 100%
+    }
+    .formHubungiKami button{
+        background-color: #3B6164; 
+        color: white; 
+        margin: 20px auto; 
+        width: 50%; 
+        height: 45px; 
+        border-radius: 5px;
+    }
+
+    /* ARTIKEL SKEOLAH PAGE*/
+    .article-content {
+        margin: 75px 0 15px;
+    }
+    .article-content .col{
+        display: inline
+    }
+    .article-content .col img{
+        width:100%;
+        margin: 0 auto; 
+        height: auto;
+        border-radius:10px;
+        /* margin: 0 35px; */
+    }
+    .article-content .col h1{
+        margin: 15px;
+        font-family: 'Poppins'; 
+        font-size: 36px; 
+        font-weight: bold
+    }
+    .article-content .col p{
+        width: auto;
+        margin: 15px;
+    }
+
+    /* ARTIKEL DETAIL PAGE */
+    .artikelDetail .content h1{
+        font-size: 24px;
+    }
+    .artikelDetail .content p{
+        font-size: 16px;
+    }
+
+    /* HEADER */
+    
+}
+
+@media (max-width: 414px){
+    /* HOME PAGE */
+    /* header */
+    .contact-left{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 8%;
+        /* position: fixed; */
+        width: auto;
+        /* display: inline; */
+        display: none;
+        float: left;
+    }
+    .contact-right{
+        float: right;
+        /* justify-content: center; */
+        /* display: flex; */
+        /* margin: auto; */
+        margin-right: 0;
+    }
+    .search{
+        display: none;
+    }
+
+    /* navbar */
+    .logo .logo-text{
+        display: none;
+    }
+    .nav-item .form-inline{
+        display: contents;
+    }
+
+
+    /* sambutan kepala sekolah */
+    .kartu{
+        background-color: lightgray;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 1%;
+        box-shadow: -2px 2px 15px -5px lightslategrey;
+        height: auto;
+        width: 100%;
+    }
+    .kartu .img-kartu{
+        width: 100%;
+        height: auto;
+        /* margin: 0 auto; */
+        z-index: 1;
+        object-fit: cover;
+    }
+    .kartu .kartu-title{
+        /* height: auto; */
+        padding: auto;
+        z-index: 2;
+        text-align: center;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+    .kartu-title h5{
+        /* padding-top: 20px; */
+        font-weight: bold;
+        font-size: 18px;
+        color: #3B6164;
+    }
+    .row1{
+        height: auto;
+        padding: 0 44px;
+        padding-bottom: 44px;
+        justify-content: space-between;
+    }
+    .row1 .col{
+        display: inline;
+        width: 100%;
+    }
+
+    /* outbond */
+    .row2{
+        padding: 75px 44px;
+        height: auto;
+    }
+    .row2 .col2 div{
+        padding: 0;
+    }
+    .row2 .col2{
+        display: inline;
+        padding: 0;
+        align-items: center;
+        color: white;
+        font-weight: 300;
+    }
+    .col2 h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        width: 100%;
+        /* font-size: 24px; */
+        margin: 0;
+    }
+    .col2 h6{
+        font-size: 13px;
+    }
+    .col2 p{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        width: 100%;
+    }
+    
+    .col2 .img-video{
+        margin: 35px auto;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    /* PROFIL SEKOLAH PAGE*/
+    .title1 img{
+        margin: auto 5px; 
+        width: 65px;
+    }
+    .profil-sekolah-logo-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .profil-sekolah-logo-subtitle{
+        font-weight: 300; 
+        font-size: 10px; 
+    }
+    .row4 .row .card{
+        margin: 35px;
+    }   
+
+    .row4 .row .owl-carousel.owl-theme.loop .card{
+        width: auto; 
+        margin: 0 32px; 
+        /* display: inline-block; */
+        display: flex;
+        box-shadow: -2px 2px 15px -5px lightslategrey; 
+        border-radius: 10px;  
+        overflow: hidden;
+    }
+
+    /* HUBUNGI KAMI PAGE*/
+    .formHubungiKami form{
+        width: 100%
+    }
+    .formHubungiKami button{
+        background-color: #3B6164; 
+        color: white; 
+        margin: 20px auto; 
+        width: 100%; 
+        height: 45px; 
+        border-radius: 5px;
+    }
+}
